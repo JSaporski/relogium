@@ -1,0 +1,18 @@
+.interna-sobre {
+  background: url("../img/bg-sobre.jpg");
+}
+
+.interna-sobre,
+.interna-sobre .subtitulo {
+  color: #fff;
+}
+
+.interna-sobre .subtitulo {
+  margin-top: 40px;
+  font-size: 46px;
+  color: #fff;
+}
+
+.interna-sobre .subtitulo:after {
+  background-color: #fff;
+}
