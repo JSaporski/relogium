@@ -1,5 +1,10 @@
+img {
+  display: inline-block; /* Ajustando o tamanho da imagem */
+}
+
 .interna-sobre {
-  background: url("../img/bg-sobre.jpg");
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .interna-sobre,
@@ -9,10 +14,55 @@
 
 .interna-sobre .subtitulo {
   margin-top: 40px;
-  font-size: 46px;
+  font-size: 48px;
   color: #fff;
 }
 
 .interna-sobre .subtitulo:after {
   background-color: #fff;
+}
+
+/* História */
+
+.historia {
+  margin: 60px auto;
+}
+
+.historia .subtitulo {
+  text-align: center;
+}
+
+.historia p {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Parceiros */
+
+.parcerias {
+  text-align: center;
+  width: 100%;
+  padding: 40px 0;
+  background: #d2d7d9;
+}
+
+.img-parcerias {
+  margin-top: 40px;
+}
+
+/* Refinado Sobre */
+
+.preenchimento-conteudo {
+  padding: 50px 40px;
+}
+
+.preenchimento-conteudo p {
+  margin: 0 auto;
+  max-width: 210px;
+}
+
+.refinado-sobre {
+  padding: 60px 0;
+  margin: 0 auto 45px auto;
 }

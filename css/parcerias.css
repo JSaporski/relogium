@@ -1,0 +1,57 @@
+img {
+  display: inline-block; /* Ajustando o tamanho da imagem */
+}
+
+.interna-parcerias {
+  background: url("../img/bg-parcerias.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna-parcerias,
+.interna-parcerias .subtitulo {
+  color: #fff;
+}
+
+.interna-parcerias .subtitulo {
+  margin-top: 40px;
+  font-size: 48px;
+  color: #fff;
+}
+
+.interna-parcerias .subtitulo:after {
+  background-color: #fff;
+}
+
+/* Relógios Parcerias */
+
+.parcerias-relogio {
+  padding: 80px 0;
+}
+
+.parcerias-relogio div:nth-child(even) {
+  margin-bottom: 20px;
+}
+
+/* Info Parcerias */
+
+.info_parcerias {
+  width: 100%;
+  margin-bottom: 45px;
+  padding: 30px 0;
+  background: #d2d7d9;
+}
+
+.info_parcerias .subtitulo {
+  text-align: center;
+}
+
+.info_parcerias p {
+  margin: 40px 0 50px 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.info_parcerias .img-parcerias {
+  margin-top: 0;
+  text-align: center;
+}

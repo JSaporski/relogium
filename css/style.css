@@ -1,12 +1,12 @@
 /* Estilos Gerais */
 
 body {
-  font-family: "Fenix", Georgia, "Times New Roman";
+  font-family: "Raleway", Georgia, "Times New Roman";
   background: #f9f9f9;
 }
 
 p {
-  font-family: "Gidole", Arial, Helvetica;
+  font-family: "Merriweather", Arial, Helvetica;
   font-size: 14px;
   line-height: 20px;
 }
@@ -18,7 +18,7 @@ img {
 .btn {
   padding: 17px 73px;
   color: #fff;
-  font-family: "Gidole", Arial, Helvetica;
+  font-family: "Merriweather", Arial, Helvetica;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   border-radius: 10px;
@@ -64,8 +64,8 @@ img {
 
 .logo-relogium {
   color: #f9f9f9;
-  font-family: "Fenix", Georgia, serif;
-  font-size: 46px;
+  font-family: "Raleway", Georgia, serif;
+  font-size: 36px;
 }
 
 .header_menu {
@@ -81,8 +81,8 @@ img {
 .header_menu ul li a {
   color: #f9f9f9;
   padding: 10px 0;
-  font-family: "Gidole", Arial, Helvetica;
-  font-size: 24px;
+  font-family: "Merriweather", Arial, Helvetica;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 30px;
@@ -123,14 +123,14 @@ img {
   margin: 0 auto;
   margin-bottom: 25px;
   color: #f9f9f9;
-  font-family: "Fenix", Georgia, "Times New Roman";
+  font-family: "Merriweather", Georgia, "Times New Roman";
   font-size: 18px;
   line-height: 25px;
 }
 
 .quote-externo cite {
   color: #f9f9f9;
-  font-family: "Gidole", Arial, Helvetica;
+  font-family: "Merriweather", Arial, Helvetica;
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
@@ -212,7 +212,7 @@ img {
 }
 
 .pers_luxo-lista {
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .preenchimento-titulo-pers,
@@ -220,7 +220,7 @@ img {
   margin-bottom: 20px;
   padding: 26px 0;
   color: #f9f9f9;
-  font-family: "Fenix", Georgia, serif;
+  font-family: "Raleway", Georgia, serif;
   font-size: 24px;
   text-transform: uppercase;
   line-height: 30px;
@@ -260,14 +260,14 @@ img {
 
 .quote-personalizado li {
   margin-bottom: 20px;
-  font-family: "Gidole", Arial, Helvetica;
+  font-family: "Merriweather", Arial, Helvetica;
   font-size: 18px;
   line-height: 25px;
 }
 
 .quote-luxo li {
   margin-bottom: 20px;
-  font-family: "Gidole", Arial, Helvetica;
+  font-family: "Merriweather", Arial, Helvetica;
   font-size: 18px;
   line-height: 25px;
 }
@@ -296,7 +296,7 @@ img {
 .rodape ul li {
   margin-bottom: 10px;
   color: #f9f9f9;
-  font-family: "Gidole", Arial, Helvetica;
+  font-family: "Merriweather", Arial, Helvetica;
   font-size: 18px;
   line-height: 25px;
 }
