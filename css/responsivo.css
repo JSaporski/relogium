@@ -1,0 +1,179 @@
+/* Estilos para tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .preenchimento-conteudo p {
+    max-width: 250px;
+  }
+
+  .preenchimento-conteudo {
+    height: 180px;
+  }
+}
+
+/* Estilos para smartphones */
+
+@media only screen and (max-width: 787px) {
+  /* Estilos Gerais */
+
+  img {
+    width: 100%;
+  }
+
+  .subtitulo {
+    font-size: 32px;
+  }
+
+  .header {
+    position: initial;
+  }
+
+  .header_menu ul {
+    margin: 30px auto 0 auto;
+  }
+
+  .header_menu ul li {
+    margin: 15px auto 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .header_menu ul li a {
+    border-radius: 3px;
+    border: solid 1px #fff;
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+
+  .header_menu ul li a:hover {
+    color: #d5d5d5;
+    border-color: #d5d5d5;
+  }
+
+  .header {
+    margin: 0;
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .logo-relogium {
+    display: block;
+  }
+
+  /* Introducao Smartphone */
+
+  .introducao {
+    margin-top: 40px;
+    background: url("/img/bg.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .introducao div {
+    padding-top: 20px;
+  }
+
+  .introducao h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  .quote-externo p {
+    max-width: 470px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #f9f9f9;
+    font-family: "Merriweather", Georgia, "Times New Roman";
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .quote-externo cite {
+    color: #f9f9f9;
+    font-family: "Merriweather", Arial, Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 30px;
+  }
+
+  .quote-externo p:before,
+  .quote-externo p:after {
+    width: 300px;
+  }
+
+  /* Refinado Home */
+
+  .refinado {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .refinado .subtitulo {
+    font-size: 32px;
+  }
+
+  .refinado li h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #f9f9f9;
+  }
+
+  .refinado li {
+    margin-top: 48px;
+    display: block;
+    margin: 40px auto;
+  }
+
+  .call {
+    padding-top: 30px;
+    clear: both;
+  }
+
+  .img-pers,
+  .img-luxo {
+    max-width: 250px;
+  }
+
+  .personalizado {
+    margin-bottom: 100px;
+  }
+
+  .personalizado,
+  .luxo {
+    margin-left: 0;
+  }
+
+  /* Responsivo Sobre */
+
+  .interna {
+    margin-top: 40px;
+  }
+
+  .historia p {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .img-parcerias li {
+    margin-left: 0;
+  }
+
+  /* Responsivo Estoque */
+
+  .estoque-relogio div {
+    margin-left: 0;
+  }
+
+  .orcamento form input {
+    max-width: 300px;
+  }
+
+  /* Responsivo Parcerias */
+
+  .parcerias-relogio div {
+    margin-left: 0;
+  }
+}
