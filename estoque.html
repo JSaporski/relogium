@@ -2,6 +2,10 @@
 <html lang="pt-br">
 
 <head>
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,13 +38,13 @@
 
   <section class="interna interna-estoque">
     <div class="container">
-      <h1 class="subtitulo">Estoque</h1>
+      <h1 data-anime="400" class="fadeInDown subtitulo">Estoque</h1>
 
-      <p>conheça os nossos relógios personalizados</p>
+      <p data-anime="800">conheça os nossos relógios personalizados</p>
     </div>
   </section>
 
-  <section class="container estoque-relogio">
+  <section data-anime="1200" class="container estoque-relogio">
     <div class="grid-8">
       <img src="img/estoque/relogio-pers-1.jpg" alt="Relógio Estoque 1">
     </div>
@@ -87,6 +91,9 @@
       </ul>
     </div>
   </footer>
+
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

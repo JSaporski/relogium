@@ -2,6 +2,10 @@
 <html lang="pt-br">
 
 <head>
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -33,9 +37,9 @@
 
   <section class="introducao">
     <div class="container">
-      <h1>Relógios Personalizados e De Luxo</h1>
+      <h1 data-anime="400" class="fadeInDown">Relógios Personalizados e De Luxo</h1>
 
-      <blockquote class="quote-externo">
+      <blockquote data-anime="800" class="quote-externo">
         <p>"não existe nada de completamente errado no mundo, mesmo
           um relógio parado consegue estar certo duas vezes por dia."</p>
 
@@ -44,7 +48,7 @@
     </div>
   </section>
 
-  <section class="refinado container">
+  <section data-anime="1200" class="refinado container">
     <h2 class="subtitulo">Refinado</h2>
 
     <ul class="qualidades-relogio">
@@ -143,6 +147,9 @@
     </div>
   </footer>
   <!-- Fecha rodapé -->
+
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

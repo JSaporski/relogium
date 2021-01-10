@@ -2,6 +2,10 @@
 <html lang="pt-br">
 
 <head>
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,13 +38,13 @@
 
   <section class="interna interna-parcerias">
     <div class="container">
-      <h1 class="subtitulo">Parcerias</h1>
+      <h1 data-anime="400" class="fadeInDown subtitulo">Parcerias</h1>
 
-      <p>conheça os nossos parceiros</p>
+      <p data-anime="800">conheça os nossos parceiros</p>
     </div>
   </section>
 
-  <section class="container parcerias-relogio">
+  <section data-anime="1200" class="container parcerias-relogio">
     <div class="grid-8">
       <img src="img/parcerias/relogio-luxo-1.jpg" alt="Relógio Parcerias 1">
     </div>
@@ -101,6 +105,9 @@
       </ul>
     </div>
   </footer>
+
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
